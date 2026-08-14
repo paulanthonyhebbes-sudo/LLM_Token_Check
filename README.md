@@ -73,9 +73,9 @@ breakdown in `results_lmstudio.csv`.)*
 
 N.B. OpenAI's flagship is the most expensive at output ($30/M), while its budget tier (Luna) undercuts everyone at $0.20 input after a price cut that dropped OpenAI's flagship GPT-5.6 ladder to run from Luna at $0.20 per million input tokens to Sol at $5.00 per million input tokens.
 
-Anthropic sits in the middle on flagship pricing and is currently the cheapest of the three on its mid-tier model - Sonnet 5 is priced at $2.00 input and $10.00 output per million tokens, described as the best price-to-performance ratio in the Claude lineup. Worth flagging: that's a temporary launch rate — it was originally due to rise to $3/$15 on 1 September 2026, though Anthropic has since confirmed the $2/$10 rate is now standard rather than a promo. 
+Anthropic sits in the middle on flagship pricing and is currently the cheapest of the three on its mid-tier model - Sonnet 5 is priced at $2.00 input and $10.00 output per million tokens, described as the best price-to-performance ratio in the Claude lineup. Worth flagging: that's a temporary launch rate - it was originally due to rise to $3/$15 on 1 September 2026, though Anthropic has since confirmed the $2/$10 rate is now standard rather than a promo. 
 
-Google's Gemini undercuts both on the budget tier — Gemini 3.5 Flash-Lite comes in at $0.30 input and $2.50 output per million tokens, and its mid-tier Flash model is priced below both OpenAI's and Anthropic's mid-tiers on output
+Google's Gemini undercuts both on the budget tier - Gemini 3.5 Flash-Lite comes in at $0.30 input and $2.50 output per million tokens, and its mid-tier Flash model is priced below both OpenAI's and Anthropic's mid-tiers on output
 
 ## Reproducing this
 
