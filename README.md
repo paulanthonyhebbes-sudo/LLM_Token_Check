@@ -19,9 +19,9 @@ Useful AI tooling is often assumed to need cloud infrastructure and ongoing subs
 | Component | Spec |
 |---|---|
 | GPU | RTX 5060 Ti, 16 GB VRAM |
-| CPU | Ryzen 5 5600 |
-| RAM | 32 GB DDR4 |
-| Approximate cost | £1,000 (built and upgraded over time) |
+| CPU | Ryzen 7 7800X3D |
+| RAM | 64 GB DDR4 |
+| Approximate cost | £1,800 (built and upgraded over time) |
 
 ---
 
