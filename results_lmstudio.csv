@@ -11,7 +11,6 @@ qwen/qwen3.5-9b,reasoning,52.44,11209.5,1
 qwen/qwen3.5-9b,short_qa,56.97,11211.4,3
 qwen/qwen3.5-9b,code_gen,55.82,11218.1,3
 qwen/qwen3.5-9b,summarisation,60.21,11214,3
-qwen/qwen3.5-9b,reasoning,58.28,11196.2,3
 deepseek-r1-distill-qwen-14b,short_qa,34.37,11376.2,3
 deepseek-r1-distill-qwen-14b,code_gen,39.06,11365.6,3
 deepseek-r1-distill-qwen-14b,summarisation,31.04,11373.9,3
