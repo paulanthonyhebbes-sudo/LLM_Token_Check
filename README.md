@@ -4,8 +4,8 @@ language models?**
 
 This repo benchmarks a handful of open-source LLMs running locally via
 [LM Studio](https://lmstudio.ai) on consumer-grade hardware (RTX 5060 Ti,
-16GB VRAM) and reports what they can actually do — tokens/sec and VRAM usage
-— as a cost-free alternative to commercial AI APIs for everyday tasks.
+16GB VRAM) and reports what they can actually do - tokens/sec and VRAM usage
+- as a cost-free alternative to commercial AI APIs for everyday tasks.
 
 ## Why
 
@@ -35,10 +35,10 @@ can buy secondhand for a few hundred pounds?
 
 ## Methodology
 
-- All models run locally via **LM Studio's Local Server** (OpenAI-compatible
+All models run locally via **LM Studio's Local Server** (OpenAI-compatible
   API at `http://localhost:1234`) - no cloud calls, no data leaving the
   machine.
-- **Note:** LM Studio serves one loaded model at a time, so each model was
+**Note:** LM Studio serves one loaded model at a time, so each model was
   loaded manually in the LM Studio app before running the benchmark script,
   then swapped for the next.
 - Each model given the same fixed set of 4 prompts: short Q&A, code
@@ -46,8 +46,8 @@ can buy secondhand for a few hundred pounds?
 - Measured: tokens/sec (wall-clock based — LM Studio's API doesn't expose a
   generation-only timing figure the way some other local-inference tools do,
   so this includes minor request overhead) and peak VRAM usage.
-- Each prompt run 3x, results averaged to reduce noise.
-- Benchmark script: [`benchmark_lmstudio.py`](./benchmark_lmstudio.py).
+  Each prompt run 3x, results averaged to reduce noise.
+  Benchmark script: [`benchmark_lmstudio.py`](./benchmark_lmstudio.py).
 
 ## Results
 
@@ -91,16 +91,16 @@ Google's Gemini undercuts both on the budget tier - Gemini 3.5 Flash-Lite comes 
 
 ## Takeaways
 
-- **Smaller isn't automatically slower.** Gemma 4 e4b, the smallest model
+**Smaller isn't automatically slower.** Gemma 4 e4b, the smallest model
   tested at ~4B effective parameters, posted the best VRAM efficiency (7.8GB)
   and was competitive on speed with models more than double its size.
-- **Qwen 3.5 9B was the fastest overall** (~57.8 tok/s average), suggesting
+**Qwen 3.5 9B was the fastest overall** (~57.8 tok/s average), suggesting
   the sweet spot on this hardware sits closer to 7–9B than to 14–20B for
   everyday responsiveness.
-- **GPT-OSS 20B ran, but right at the card's limit** — ~15.4GB of the
+**GPT-OSS 20B ran, but right at the card's limit** — ~15.4GB of the
   available 16GB. It's usable, but there's very little headroom left for
   longer context windows or running anything else alongside it.
-- Overall: a 16GB consumer GPU comfortably runs the 7–14B range with room to
+  Overall: a 16GB consumer GPU comfortably runs the 7–14B range with room to
   spare, and can stretch to 20B models at the cost of most of the available
   VRAM headroom.
 
